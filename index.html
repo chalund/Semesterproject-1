@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage for Community Science Museum witch shows the offers there are ">
     <title>Community Science Museum | Home</title>
+    <link href="css/style.css" rel="Stylesheet">
+    <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
+    
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="images/open-science-735787-photoaidcom-invert.jpg" alt="CSM logo">Community Science Museum</a>
+        <a href="index.html"><img src="images/open-science-735787-photoaidcom-invert.jpg" alt="CSM logo" width="65" height="70" >Community Science Museum</a>
+        <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu">
         <nav>
             <ul>
                 <li><a href="visit.html">Visit Us</a></li>
-                <li><a href="exhibition.html">Exhibition</a></li>
+                <li><a href="exhibition.html">Exhibition</a></li> 
                 <li><a href="whatson.html">What's On</a></li>
                 <li><a href="explore.html">Explore</a></li>
                 <li><a href="getinvolved.html">Get Involved</a></li>
@@ -21,92 +27,90 @@
     </header>
     <main>
         <section>
-            <div>
-                <img src="images/scott-webb-102825.jpg" alt="a colorful wall with a museum logo">
+            <div class="museum">
+                <img src="images/scott-webb-102825.jpg" alt="a colorful wall with a museum logo" width="1440" height="510">
             </div>
-            <div>
+            <div class="yellow_box">
                 <h1>COMMUNITY SCIENCE MUSEUM</h1>
                 <h2>"Explore together"</h2>
                 <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
                 <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
             </div>
-            <div>
+            <div class="green_box">
                 <h2>OPEN DAILY</h2>
                 <p>(EXEPT MONDAY)</p>
-                <p>FIND OUT MORE</p>
+                <a href="visit.html" class="active">FIND OUT MORE</a>
                 <h2>ENTRY TO THE MUSEUM IS FREE</h2>
-                <p>FIND OUT MORE</p>
+                <a href="visit.html" class="active">FIND OUT MORE</a>
             </div>
             <div>
-                <img src="images/exhibition.jpg" alt="exhibition hall with various exhibitions">
+                <img src="images/exhibition.jpg" alt="exhibition hall with various exhibitions" width="445" height="280">
             </div>
         </section> 
-        <section>
+        <section class="exhibition_spaces">
             <h1>Exhibition Spaces</h1> 
-                <div>
-                    <img src="images/scientific-2040795_1280.jpg" alt="researcher working with robot">
-                    <h3>cosmology</h3>
-                    <p>more</p>
+                <div class="cosmology">
+                        <img src="images/scientific-2040795_1280.jpg" alt="researcher working with robot" width="330" height="230" class="exhibition_images">
+                        <h3>cosmology</h3>
+                        <p>more</p>
                 </div>
-                <div>
-                    <img src="images/heart-2607178_1920.jpg" alt="exhibition of an artificial heart">
+                <div class="medecine">
+                    <img src="images/heart-2607178_1920.jpg" alt="exhibition of an artificial heart" width="330" height="230" class="exhibition_images">
                     <h3>biology & medecine</h3>
                     <p>more</p>
                 </div>
-                <div>
-                    <img src="images/mammoth-1257288_1920.jpg" alt="skeleton of a mammoth">
+                <div class="evolution">
+                    <img src="images/mammoth-1257288_1920.jpg" alt="skeleton of a mammoth" width="330" height="230" class="exhibition_images">
                     <h3>evolution</h3>
                     <p>more</p>
                 </div>
-                <div>
-                    <img src="images/samuel-zeller-158996.jpg" alt="UV briller on a kid">
-                    <h3>robot & AI</h3>
+                <div class="robots">
+                    <img src="images/samuel-zeller-158996.jpg" alt="UV briller on a kid" width="330" height="230" class="exhibition_images">
+                    <h3>robot & ai</h3>
                     <p>more</p>
                 </div>
-                <div>
-                    <img src="images/skeleton-414543_1920.jpg" alt="four different sized skeleton">
+                <div class="ecology">
+                    <img src="images/skeleton-414543_1920.jpg" alt="four different sized skeleton" width="330" height="230" class="exhibition_images">
                     <h3>Ecology</h3>
                     <p>more</p>
                 </div>
         </section>
         <section>
-            <img src="#" alt="girl looking at board with science notes">
-            <h2>COMMUNITY SCIENCE MUSEUM</h2>
+            <img src="images/learn-2405206_1920.jpg" alt="girl looking at board with science notes" width="650" height="410">
+            <h2>Community Sciense Muesum</h2>
             <h3>"Explore together"</h3>
-            <p> Play & interact with our exhibitons
-                1000 Exhibits to EXPLORE
-                Do you wanna learn the FUN way?</p>
+            <ul>
+                <li>Play & interact with our exhibitons</li>
+                <li>1000 Exhibits to explore</li>
+                <li>Do you wanna learn the FUN way?</li>
+            <ul>
             <p>We believe science should not be confined to the textbook, but brought to live through exhibits</p>
         </section>
-        <section>
+        <section class="events">
             <h1>Spesial Events and Exhibitions</h1>
             <h2>new exhibitations every month, join us on our newest events</h2>
                 <div>
                     <h3>Visiting Professor of Aeronautics</h3>
-                    <img src="images/andrew-ruiz-348421.jpg" alt="
-                    astronaut with full equipment sitting in simulator
-                    ">
+                    <img src="images/andrew-ruiz-348421.jpg" alt="astronaut with full equipment sitting in simulator" width="310" height="410">
                     <p>Get lectures on the development of aeronautics</p>
                     <p>more</p>
                 </div>
                 <div>
                     <h3>Energetica Exhibition on Loan</h3>
-                    <img src="images/william-bout-264826.jpg" alt="
-                    energy grid taken from below">
+                    <img src="images/william-bout-264826.jpg" alt="energy grid taken from below" width="310" height="410">
                     <p>######</p>
                     <p>more</p>
                 </div>
                 <div>
                     <h3>Night in the Museum</h3>
-                    <img src="images/roberto-nickson-396152.jpg" alt="
-                    historic museum hall with an elephant on display">
+                    <img src="images/roberto-nickson-396152.jpg" alt="historic museum hall with an elephant on display" width="310" height="410">
                     <p>######</p>
                     <p>more</p>
                 </div>
         </section>
-        <section>
-            <p>back on top</p>
-            font awesome pil
+        <section class="back_to">
+            <p>back to top</p>
+            <i class="fa-regular fa-circle-up"></i>
         </section>
     </main>
     <footer>
@@ -120,20 +124,24 @@
         </div>
         <div>
             <p>opening hours</p>
-            <p>Monday:        
-                Tuesday:        
-                Wednesday:  
-                Thursday:      
-                Friday:           
-                Saturday:      
-                Sunday:</p>
-            <p>Closed
-                10:00-16:00 
-                10:00-16:00    
-                10:00-16:00         
-                10:00-19:00
-                09:00-16:00
-                09:00-13:00</p> 
+            <div>
+                <p>Monday:</p>        
+                <p>Tuesday:</p>        
+                <p>Wednesday:</p>
+                <p>Thursday:</p> 
+                <p>Friday:</p>      
+                <p>Saturday:</p>    
+                <p>Sunday:</p>
+            </div>
+            <div>
+                <p>Closed</p>
+                <p>10:00-16:00</p> 
+                <p>10:00-16:00</p>    
+                <p>10:00-16:00</p>         
+                <p>10:00-19:00</p>
+                <p>09:00-16:00</p>
+                <p>09:00-13:00</p>
+            </div> 
         </div>
         <div>
            <a href="visit.html">About us</a>

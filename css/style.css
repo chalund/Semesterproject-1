@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "Mulish";
+    src: url(../fonts/Mulish-Regular.ttf) format("truetype");
+}
+
+body {
+    font-family: Mulish, Muli, Avenir, Proxima Nova, Futura;
+    font-variant: small-caps;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header a {
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;   
+}
+
+nav {
+    display: none;
+    position: fixed;
+    background-color;
+    background: #000;
+    top: 90px;
+    z-index: 1000;
+    right: 0px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: block;
+    padding: 0px 10px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+.header {
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+header, 
+footer {
+    background-color: black;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+
+/*Links */
+a {
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* Home-page*/
+.museum {
+    border-top: 1em solid #002aa1;
+}
+  
+
+.yellow_box {
+    background-color: #fecf63;
+    display: none;
+}
+
+.green_box {
+    background-color:#92c77a ;
+}
+
+.green_box a {
+    color: #000;
+}
+
+.exhibition_images {
+    border-radius: 20%;
+}
+
+.exhibition_spaces, 
+.events {
+    background-color: black;
+}
+
+.exhibition_spaces h1,
+.events h1,
+.events h2 {
+    color: #FFF
+}
+
+img {
+    max-width: 100%;
+
+}
+
+
+.cosmology {
+    background-color:#f5f5f5;
+    border: 10px solid #faa03c
+    
+}
+
+.medecine {
+    background-color: #d865aa;
+}
+
+.evolution {
+    background-color: #92c77a;
+}
+
+.robots {
+    background-color:#62beed ;
+}
+
+.ecology {
+    background-color: #fecf63;
+}
+
+/* visit us*/
+.visit_us {
+    border-top: 1em solid #31abeb ;
+}
+
+.visit_info {
+    background: #000;
+    color: #FFF;
+}
+
+/* Exhibition Spaces */
+.exhibition {
+    border-top: 1em solid #92c77a;
+}
+
+/* Special events and exhibition */
+.special_events {
+    border-top: 1em solid #d865aa ;
+}
+
+/* Explore */
+.explore {
+    border-top: 1em solid #fecf63 ;
+}
+
+/* Get involved */
+.get_involved {
+    border-top: 1em solid #faa03c ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.back_to {
+    background-color: #d865aa;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px) {
+header {
+    justify-content: start;
+}
+
+nav li {
+        display: inline-block;
+        padding: 0px;
+}
+
+nav {
+    display: block;
+    position: static;
+}
+
+header label {
+    display: none;
+}
+
+.yellow_box {
+    display: block;
+}
+
+
+}

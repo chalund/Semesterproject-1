@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="information page for museum facilities and general information">
     <title>Community Science Museum | Visit Us</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="images/open-science-735787-photoaidcom-invert.jpg" alt="CSM logo">Community Science Museum</a>
+        <a href="index.html"><img src="images/open-science-735787-photoaidcom-invert.jpg" alt="CSM logo" width="65" height="70">Community Science Museum</a>
+        <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu">
         <nav>
             <ul>
-                <li><a href="visit.html">Visit Us</a></li>
+                <li><a href="visit.html" class="active">Visit Us</a></li>
                 <li><a href="exhibition.html">Exhibition</a></li>
                 <li><a href="whatson.html">What's On</a></li>
                 <li><a href="explore.html">Explore</a></li>
@@ -20,11 +25,12 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="header">
+            <div class="visit_us"></div>
             <h1>Visit Us</h1>
-            <img src="images/exhibition.jpg" alt="exhibition hall with various exhibitions">
+            <img src="images/exhibition.jpg" alt="exhibition hall with various exhibitions" class="welcome_image">
         </section>
-        <section>
+        <section class="visit_info">
             <div> 
                 <h1>Location</h1>
                 <p>The museum is located at</p>
@@ -62,16 +68,19 @@
         </section>
         <section>
             <div>
+                <i class="fa-solid fa-wheelchair"></i>
                 <img src="#" alt="#">
                 <h3>Accessibility</h3>
                 <p>The museum has wheelchair accessibillity ramps. It also has audio guides and braille display signs for the visually impaired.</p>
             </div>
             <div>
+                <i class="fa-solid fa-utensils"></i>
                 <img src="#" alt="#">
                 <h3>Food and drinks</h3>
                 <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
             </div>
             <div>
+                <i class="fa-solid fa-shop"></i>
                 <img src="#" alt="#">
                 <h3>Shop</h3>
                 <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
