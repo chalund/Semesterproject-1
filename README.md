@@ -6,4 +6,4 @@ https://www.figma.com/file/I7F8v5JUPE8FAeW3pFbgVJ/museum?node-id=128%3A78&t=zgbY
 
 Link to Website
 
-https://friendly-palmier-76cc52.netlify.app
+https://effervescent-speculoos-544249.netlify.app
