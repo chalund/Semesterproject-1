@@ -23,6 +23,10 @@ header a {
     align-items: center;   
 }
 
+.logo {
+    width: 70px;
+}
+
 nav {
     flex: 1;
     text-align: right;
@@ -66,9 +70,13 @@ header {
 .top h1 {
     background: #000;
     color: #fff;
-    padding: 1em;
+    padding: 10px;
     text-align: center;
      margin: auto;
+}
+
+.top img {
+    min-height: 390px;
 }
 
 header, 
@@ -125,7 +133,7 @@ img {
 
 /* Home-page*/
 .home_page {
-    border-top: 6em solid #002aa1;
+    border-top: 90px solid #002aa1;
 }
 
 .museum_info1 {
@@ -137,7 +145,6 @@ img {
     background-color:#92c77a ;
     padding: 2em 3em;
 }
-
 
 .exhibition_mobile {
     background: #000;
@@ -173,24 +180,14 @@ img {
     background: #fecf63;
 }
 
-.exhibition_spaces {
-    display: none;
-}
-
-.exhibition_content {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin: auto;
-    grid-gap: 3em;
-    padding: 5em;
-
-} 
-
-
 
 .exhibition_spaces, 
 .events {
     background-color: black;
+}
+
+.exhibition_spaces {
+    display: none;
 }
 
 .exhibition_mobile h1 ,
@@ -201,13 +198,9 @@ img {
     text-align: center;
 }
 
-
-
 .events h2 {
     display: none;
 }
-
-
 
 .back_to {
     background-color: #d865aa;
@@ -215,26 +208,6 @@ img {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.cosmology {
-    background-color: #faa03c;
-}
-
-.medecine {
-    background-color: #d865aa;
-}
-
-.evolution {
-    background-color: #92c77a;
-}
-
-.robots {
-    background-color:#62beed ;
-}
-
-.ecology {
-    background-color: #fecf63;
 }
 
 .why_visit {
@@ -250,7 +223,7 @@ img {
 
 /* visit us*/
 .visit_us_page {
-    border-top: 6em solid #31abeb ;
+    border-top: 90px solid #31abeb ;
 }
 
 .visit_info {
@@ -281,7 +254,7 @@ img {
 
 /* Exhibition Spaces */
 .exhibition_page {
-    border-top: 6em solid #92c77a;
+    border-top: 90px solid #92c77a;
 }
 
 .exhibition_img {
@@ -290,7 +263,7 @@ img {
     width: 20em;
 }
 
-.exhibition_page {
+.exhibition_page_content {
     display: flex;
 }
 
@@ -303,37 +276,35 @@ img {
 }
 
 .exhibition_page_content1 {
-    border: 2em solid #faa03c;
-    padding: 2em;
+    border: 30px solid #faa03c;
+    
 }
 
 .exhibition_page_content2 {
-    border: 2em solid #d865aa;
-    padding: 2em;
+    border: 30px solid #d865aa;
+    
 }
 
 .exhibition_page_content3 {
-    border: 2em solid #92c77a;
-    padding: 2em;
+    border: 30px solid #92c77a;
+    
 }
 
 .exhibition_page_content4 {
-    border: 2em solid #31abeb;
-    padding: 2em;
+    border: 30px solid #31abeb;
+    
 }
 
 .exhibition_page_content5 {
-    border: 2em solid #fecf63;
-    padding: 2em;
+    border: 30px solid #fecf63;
+   
 }
 
-.exhibition_text {
-    margin: 0em 3em;
-}
+
 
 /* Special events and exhibition */
 .special_events_page {
-    border-top: 6em solid #d865aa ;
+    border-top: 90px solid #d865aa ;
 }
 
 .event_content h1 {
@@ -372,19 +343,76 @@ img {
 
 /* Explore */
 .explore_page {
-    border-top: 1em solid #fecf63 ;
+    border-top: 90px solid #fecf63 ;
+}
+
+.top img {
+    max-height: 390px;
+}
+
+.explore_content {
+    display: flex;
+    max-width: 1000px;
+    margin: 100px auto;
+    gap: 30px;
+}
+
+.explore_kids {
+    font-size: 24px;
+}
+
+.explore_image_container {
+    display: flex;
+}
+
+.explore_image_container img {
+    margin: 10px;
 }
 
 .explore_info {
     background-color: #fecf63;
     padding: 3em;
-    border-radius: 30px; 
+    border-radius: 30px;
+    font-size: 20px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+    .explore_image_container {
+        display: block;
+    }
+
+    .explore_content {
+        margin: 0px;
+}
+
+   
+}
+
+@media (max-width: 1024px) {
+    .explore_content {
+        flex-direction: column;
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+
+ 
+    
 
 
 /* Get involved */
 .get_involved_page {
-    border-top: 6em solid #faa03c ;
+    border-top: 90px solid #faa03c ;
 }
 
 .get_involved_info {
