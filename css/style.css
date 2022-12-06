@@ -37,6 +37,23 @@ nav li {
     padding: 0px;
 }
 
+nav {
+    display: none;
+    position: fixed;
+    background-color;
+    background: #000;
+    top: 80px;
+    z-index: 1000;
+    right: 0px;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+}
+
 
 #hamburger-menu {
     display: none;
@@ -73,21 +90,19 @@ footer a {
     display: flex;
 }
 
-.footer_item1 {
+.footer-container > * {
     flex: 1;
 }
 
-.footer_item2 {
-    flex: 1;
-}
+.opening_info li {
+    display: block;
+  }
 
-.footer_item3 {
-    flex: 1;
-}
-
-.footer-info {
+.opening_info {
     display: flex;
 }
+
+
 
 
 
@@ -110,7 +125,7 @@ img {
 
 /* Home-page*/
 .home_page {
-    border-top: 1em solid #002aa1;
+    border-top: 6em solid #002aa1;
 }
 
 .museum_info1 {
@@ -235,7 +250,7 @@ img {
 
 /* visit us*/
 .visit_us_page {
-    border-top: 1em solid #31abeb ;
+    border-top: 6em solid #31abeb ;
 }
 
 .visit_info {
@@ -266,7 +281,7 @@ img {
 
 /* Exhibition Spaces */
 .exhibition_page {
-    border-top: 1em solid #92c77a;
+    border-top: 6em solid #92c77a;
 }
 
 .exhibition_img {
@@ -318,7 +333,7 @@ img {
 
 /* Special events and exhibition */
 .special_events_page {
-    border-top: 1em solid #d865aa ;
+    border-top: 6em solid #d865aa ;
 }
 
 .event_content h1 {
@@ -369,7 +384,7 @@ img {
 
 /* Get involved */
 .get_involved_page {
-    border-top: 1em solid #faa03c ;
+    border-top: 6em solid #faa03c ;
 }
 
 .get_involved_info {
