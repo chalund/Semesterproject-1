@@ -7,6 +7,7 @@ body {
     font-family: Mulish, Muli, Avenir, Proxima Nova, Futura;
     font-variant: small-caps;
     background-color: #f5f5f5;
+    margin: 0px;
 }
 
 header {
@@ -23,23 +24,19 @@ header a {
 }
 
 nav {
-    display: none;
-    position: fixed;
-    background-color;
-    background: #000;
-    top: 90px;
-    z-index: 1000;
-    right: 0px;
+    flex: 1;
+    text-align: right;
 }
 
-nav ul {
-    padding: 0px;
+nav a:hover {
+    color: #31abeb;
 }
 
 nav li {
     display: block;
-    padding: 0px 10px;
+    padding: 0px;
 }
+
 
 #hamburger-menu {
     display: none;
@@ -49,10 +46,12 @@ nav li {
     display: block;
 }
 
-.header {
+.header h1 {
     background: #000;
     color: #fff;
+    padding: 1em;
     text-align: center;
+     margin: auto;
 }
 
 header, 
@@ -63,66 +62,148 @@ footer {
 
 footer a {
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 1em;
+    font-weight: bold;
 }
+
+.footer-container {
+    display: flex;
+}
+
+.footer_item1 {
+    flex: 1;
+}
+
+.footer_item2 {
+    flex: 1;
+}
+
+.footer_item3 {
+    flex: 1;
+}
+
+.footer-info {
+    display: flex;
+}
+
+
 
 
 /*Links */
 a {
     text-decoration: none;
+    color: #000;
 }
 
 .active {
     text-decoration: underline;
 }
 
+img {
+    width: 100%;
 
-
+}
 
 
 /* Home-page*/
-.museum {
+.home_page {
     border-top: 1em solid #002aa1;
 }
-  
 
-.yellow_box {
+.museum_info1 {
     background-color: #fecf63;
     display: none;
 }
-
-.green_box {
+  
+.museum_info2 {
     background-color:#92c77a ;
+    padding: 2em 3em;
 }
 
-.green_box a {
-    color: #000;
+
+.exhibition_mobile {
+    background: #000;
+    padding: 1em;
 }
 
-.exhibition_images {
-    border-radius: 20%;
+.exhibition_mobile div {
+    border: 1em solid #000;
+    padding-left: 2em;
 }
+
+.exhibition_mobile p {
+    margin-top: -1em;
+}
+
+.exhibition_mobile_1 {
+    background: #faa03c;
+}
+
+.exhibition_mobile_2 {
+    background: #d865aa
+}
+
+.exhibition_mobile_3 {
+    background: #92c77a
+}
+
+.exhibition_mobile_4 {
+    background: #31abeb
+}
+
+.exhibition_mobile_5 {
+    background: #fecf63;
+}
+
+.exhibition_spaces {
+    display: none;
+}
+
+.exhibition_content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    grid-gap: 3em;
+    padding: 5em;
+
+} 
+
+
 
 .exhibition_spaces, 
 .events {
     background-color: black;
 }
 
-.exhibition_spaces h1,
+.exhibition_mobile h1 ,
+.exhibition_spaces h1 ,
 .events h1,
 .events h2 {
-    color: #FFF
+    color: #FFF;
+    text-align: center;
 }
 
-img {
-    max-width: 100%;
 
+
+.events h2 {
+    display: none;
 }
 
+
+
+.back_to {
+    background-color: #d865aa;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 .cosmology {
-    background-color:#f5f5f5;
-    border: 10px solid #faa03c
-    
+    background-color: #faa03c;
 }
 
 .medecine {
@@ -141,84 +222,161 @@ img {
     background-color: #fecf63;
 }
 
+.why_visit {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.why_visit p {
+    display: none;
+}
+
+
 /* visit us*/
-.visit_us {
+.visit_us_page {
     border-top: 1em solid #31abeb ;
 }
 
 .visit_info {
     background: #000;
     color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.visit_content {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.accessibility {
+    border: 2em solid #d865aa;
+}
+
+.food {
+    border: 2em solid #fecf63;
+}
+
+.shop {
+    border: 2em solid #92c77a;
 }
 
 /* Exhibition Spaces */
-.exhibition {
+.exhibition_page {
     border-top: 1em solid #92c77a;
 }
 
+.exhibition_img {
+    border-radius: 10%;
+    height: 15em;
+    width: 20em;
+}
+
+.exhibition_page {
+    display: flex;
+}
+
+.exhibition_page_content1 ,
+.exhibition_page_content2 ,
+.exhibition_page_content3 ,
+.exhibition_page_content4 , 
+.exhibition_page_content5 > * {
+    flex: 1;
+}
+
+.exhibition_page_content1 {
+    border: 2em solid #faa03c;
+    padding: 2em;
+}
+
+.exhibition_page_content2 {
+    border: 2em solid #d865aa;
+    padding: 2em;
+}
+
+.exhibition_page_content3 {
+    border: 2em solid #92c77a;
+    padding: 2em;
+}
+
+.exhibition_page_content4 {
+    border: 2em solid #31abeb;
+    padding: 2em;
+}
+
+.exhibition_page_content5 {
+    border: 2em solid #fecf63;
+    padding: 2em;
+}
+
+.exhibition_text {
+    margin: 0em 3em;
+}
+
 /* Special events and exhibition */
-.special_events {
+.special_events_page {
     border-top: 1em solid #d865aa ;
 }
 
-/* Explore */
-.explore {
-    border-top: 1em solid #fecf63 ;
+.event_content h1 {
+    background: #000;
+    color: #FFF;
 }
 
-/* Get involved */
-.get_involved {
-    border-top: 1em solid #faa03c ;
-}
-
-
-
-
-
-
-
-
-
-
-
-.back_to {
-    background-color: #d865aa;
-    color: #fff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 800px) {
-header {
-    justify-content: start;
-}
-
-nav li {
-        display: inline-block;
-        padding: 0px;
-}
-
-nav {
-    display: block;
-    position: static;
-}
-
-header label {
+.event_content h2 {
     display: none;
 }
 
-.yellow_box {
-    display: block;
+.event_img {
+    border-radius: 30px;
+    width: 310px;
+    height: 220px;
+}
+
+.event_1 , 
+.event_2 ,
+.event_3 {
+    padding: 1em; 
+}
+
+.event_1 {
+    border: 2em solid #faa03c;
+}
+
+.event_2 {
+    border: 2em solid #92c77a;     
+}
+
+.event_3 {
+    border: 2em solid  #31abeb;
 }
 
 
+/* Explore */
+.explore_page {
+    border-top: 1em solid #fecf63 ;
 }
+
+.explore_info {
+    background-color: #fecf63;
+    padding: 3em;
+    border-radius: 30px; 
+}
+
+
+/* Get involved */
+.get_involved_page {
+    border-top: 1em solid #faa03c ;
+}
+
+.get_involved_info {
+    border: 2em solid #faa03c;
+    padding: 1em;
+}
+
+
+
+

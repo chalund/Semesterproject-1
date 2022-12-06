@@ -7,6 +7,7 @@
     <meta name="description" content="special events and exhibitions currently taking place">
     <title>Community Science Museum | Special Events</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_media.css" rel="stylesheet media quaries">
     <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
 </head>
 <body>
@@ -26,69 +27,81 @@
     </header>
     <main>
         <section class="header">
-            <div class="special_events"></div>
+            <div class="special_events_page"></div>
             <h1>Special events and exhibitions</h1>
-            <img src="images/celso-405219.jpg" alt="8 different phases of the moon">
+            <img src="images/header/celso-405219 2.jpg" alt="8 different phases of the moon">
         </section>
         <section>
             <h1>News</h1>
-            <div>
-                <h2>Visiting Professor of Aeronautics</h2>
-                <img src="images/andrew-ruiz-348421.jpg" alt="
-                    astronaut with full equipment sitting in simulator">
-                <h3>Visiting Professor of Aeronautics</h3>
-                <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
-            </div>
-            <div>
-                <h2>Energetica Exhibition on Loan</h2>
-                <img src="images/william-bout-264826.jpg" alt="energy grid taken from below">
-                <h3>Energetica Exhibition on Loan </h3>
-                <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum.</p>
-                <p>It’s a series of installations that allow visitors to experience the power of the elements as we harness them.</p>
-                <p>From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
-            </div>
-            <div>
-                <h2>Night in the Museum</h2>
-                <img src="images/roberto-nickson-396152.jpg" alt="historic museum hall with an elephant on display">
-                <h3>Night in the Museum</h3>
-                <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays.</p>
-                <p>Bring your own sleeping bag a nd get ready to rough it as we go exploring the wonders of science. </p>
+            <div class="event_content">
+                <div class="event_1">
+                    <h2>Visiting Professor of Aeronautics</h2>
+                    <img src="images/andrew-ruiz-348421.jpg" alt="
+                        astronaut with full equipment sitting in simulator" class="event_img">
+                    <h3>Visiting Professor of Aeronautics</h3>
+                    <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
+                </div>
+                <div class="event_2">
+                    <h2>Energetica Exhibition on Loan</h2>
+                    <img src="images/william-bout-264826.jpg" alt="energy grid taken from below" class="event_img">
+                    <h3>Energetica Exhibition on Loan </h3>
+                    <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum.</p>
+                    <p>It’s a series of installations that allow visitors to experience the power of the elements as we harness them.</p>
+                    <p>From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
+                </div>
+                <div class="event_3">
+                    <h2>Night in the Museum</h2>
+                    <img src="images/roberto-nickson-396152.jpg" alt="historic museum hall with an elephant on display" class="event_img">
+                    <h3>Night in the Museum</h3>
+                    <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays.</p>
+                    <p>Bring your own sleeping bag a nd get ready to rough it as we go exploring the wonders of science. </p>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <p>Visit Us</p>
+    <footer class="footer-container">
+        <div class="footer_item1">
+            <h3>Visit Us</h3>
+            <div>
             <p>Vesterålsgata 12</p> 
             <p>8400 Sortland</p>
             <p>NORWAY</p>
-            <p>Tlf: 76 10 90 00</p>
+            <p>PHONE: +47 76 10 90 00</p>
             <p>E-mail: info@csm.com</p>
+            </div>
+            </div>
         </div>
-        <div>
-            <p>opening hours</p>
-            <p>Monday:        
-                Tuesday:        
-                Wednesday:  
-                Thursday:      
-                Friday:           
-                Saturday:      
-                Sunday:</p>
-            <p>Closed
-                10:00-16:00 
-                10:00-16:00    
-                10:00-16:00         
-                10:00-19:00
-                09:00-16:00
-                09:00-13:00</p> 
+        <div class="footer_item2">
+                <h3>opening hours</h3>
+                <div class="footer-info">
+                <div>
+                    <p>Monday:</p>        
+                    <p>Tuesday:</p>        
+                    <p>Wednesday:</p>
+                    <p>Thursday:</p> 
+                    <p>Friday:</p>      
+                    <p>Saturday:</p>    
+                    <p>Sunday:</p>
+                </div>
+                <div>
+                    <p>Closed</p>
+                    <p>10:00-16:00</p> 
+                    <p>10:00-16:00</p>    
+                    <p>10:00-16:00</p>         
+                    <p>10:00-19:00</p>
+                    <p>09:00-16:00</p>
+                    <p>09:00-13:00</p>
+                </div> 
+            </div>
         </div>
-        <div>
-           <a href="visit.html">About us</a>
-           <a href="explore.html">explore</a>
-           <a href="exhibition.html">exhibition</a>
-           <a href="whatson.html">special events</a>
-           <a href="getinvolved.html">get involved</a>
+        <div class="footer_item3">
+            <a href="visit.html">About us</a>
+            <a href="explore.html">explore</a>
+            <a href="exhibition.html">exhibition</a>
+            <a href="whatson.html">special events</a>
+            <a href="getinvolved.html">get involved</a>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
