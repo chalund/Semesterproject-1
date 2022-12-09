@@ -8,6 +8,8 @@ body {
     font-variant: small-caps;
     background-color: #f5f5f5;
     margin: 0px;
+    font-size: 20px;
+
 }
 
 header {
@@ -18,7 +20,7 @@ header {
 
 header a {
     color: #fff;
-    padding: 10px;
+    padding: 5px 10px;
     display: flex;
     align-items: center;   
 }
@@ -33,7 +35,7 @@ nav {
 }
 
 nav a:hover {
-    color: #31abeb;
+    color: #C058AD;
 }
 
 nav li {
@@ -76,7 +78,9 @@ header {
 }
 
 .top img {
-    min-height: 390px;
+    max-height: 390px; 
+    min-height: 300px;
+    margin-bottom: -5px;
 }
 
 header, 
@@ -89,31 +93,41 @@ footer a {
     color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    padding: 1em;
     font-weight: bold;
 }
 
 .footer-container {
     display: flex;
+    justify-content: space-around;
+    padding: 10px 60px;
+    flex-direction: column;
 }
 
-.footer-container > * {
-    flex: 1;
+
+.footer-info {
+    display: flex;
+    gap: 30px;
+    
 }
 
-.opening_info li {
+.footer2 p {
+    margin-top: 0px;
+}
+
+
+.opening_info li ,
+.footer_item3 li  {
     display: block;
-  }
+}
+
+.opening_info {
+    margin-left: -40px ;
+    margin-top: -20px;
+}
 
 .opening_info {
     display: flex;
 }
-
-
-
-
-
 
 /*Links */
 a {
@@ -136,28 +150,43 @@ img {
     border-top: 90px solid #002aa1;
 }
 
+.museum_info > * {
+    margin: 0px;
+}
+
 .museum_info1 {
     background-color: #fecf63;
     display: none;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 10px;
+    justify-content: space-evenly;
+
 }
-  
+ 
 .museum_info2 {
     background-color:#92c77a ;
-    padding: 2em 3em;
+    padding: 20px;
+}
+
+.museum_info2 h2 {
+    font-size: x-large;
+    font-weight: bolder;
 }
 
 .exhibition_mobile {
     background: #000;
-    padding: 1em;
+    padding: 30px;
+    margin-top: -5px;
 }
 
 .exhibition_mobile div {
-    border: 1em solid #000;
-    padding-left: 2em;
+    border: 0px solid #000;
+
 }
 
 .exhibition_mobile p {
-    margin-top: -1em;
+    margin-top: 10px;
 }
 
 .exhibition_mobile_1 {
@@ -180,10 +209,52 @@ img {
     background: #fecf63;
 }
 
+.cta_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    padding: 10px 15px;
+    background: #92c77a;
+}
+
+.cosmology {
+    padding: 40px;
+    background: #fff;
+    border: 30px solid #faa03c; 
+}
+
+.medecine {
+    padding: 40px;
+    background: #fff;
+    border: 30px solid #d865aa; 
+}
+
+.evolution {
+    padding: 40px;
+    background: #fff;
+    border: 30px solid #92c77a; 
+}
+
+.robots {
+    padding: 40px;
+    background: #fff;
+    border: 30px solid #31abeb;
+}
+
+.ecology {
+    padding: 40px;
+    background: #fff;
+    border: 30px solid #fecf63
+}
 
 .exhibition_spaces, 
 .events {
     background-color: black;
+    padding-top: 30px;
+    
 }
 
 .exhibition_spaces {
@@ -196,6 +267,8 @@ img {
 .events h2 {
     color: #FFF;
     text-align: center;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .events h2 {
@@ -208,18 +281,180 @@ img {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 40px;
+    font-size: 30px;
+}
+
+.back_to a {
+    color: #FFF;
+    padding: 15px;
+
 }
 
 .why_visit {
     display: flex;
-    flex-direction: column-reverse;
     text-align: center;
+    max-width: 1000px;
+    flex-direction: column;
+}
+
+.why_visit_img {
+    width: 100%;
+    height: 400px;
 }
 
 .why_visit p {
     display: none;
 }
 
+
+.events_info {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.events h1 {
+    padding-bottom: 10px;
+}
+
+.eventx {
+    padding: 40px;
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.eventx img {
+    height: 400px;
+    width: 280px;
+    border-radius: 20%;
+}
+
+.event3 h3 {
+    padding-bottom: 30px;
+}
+
+.event1 {
+    border: 30px solid #fecf63;
+}
+
+.event2 {
+    border: 30px solid #92c77a;
+}
+
+.event3 {
+    border: 30px solid #31abeb;
+}
+
+
+/* Exhibition Spaces */
+.exhibition_page {
+    border-top: 90px solid #92c77a;
+}
+
+.exhibition_img {
+    border-radius: 10%;
+    height: 300px;
+    width: 400px;
+    align-self: center;
+}
+
+.exhibition_page_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.exhibition_content {
+    display: flex;
+    padding: 30px;
+ 
+}
+
+.exhibition_text {
+    padding: 0px 40px;
+}
+
+.exhibition_page_content2 ,
+.exhibition_page_content4 {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+
+.exhibition_page_content1 {
+    border: 30px solid #faa03c;  
+}
+
+.exhibition_page_content2 {
+    border: 30px solid #d865aa; 
+}
+
+.exhibition_page_content3 {
+    border: 30px solid #92c77a;  
+}
+
+.exhibition_page_content4 {
+    border: 30px solid #31abeb;   
+}
+
+.exhibition_page_content5 {
+    border: 30px solid #fecf63; 
+}
+
+/* what's on */
+.special_events_page {
+    border-top: 90px solid #d865aa ;
+}
+
+.event_view  {
+    max-width: 1000px;
+    margin: 50px auto;   
+}
+
+.event_content {
+    max-width: 1000px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.event_content > * {
+    flex: 1;
+    padding: 10px;
+}
+
+.event_img {
+    border-radius: 30px;
+    width: 310px;
+    height: 220px;
+}
+
+.event_1 {
+    border: 30px solid #faa03c;
+}
+
+.event_2 {
+    border: 30px solid #92c77a;     
+}
+
+.event_3 {
+    border: 30px solid  #31abeb;
+}
+
+.event_3 h2 {
+    padding-bottom: 40px;
+}
+
+.event_3 img {
+    height: 220px;
+    width: 320px;
+    
+}
 
 /* visit us*/
 .visit_us_page {
@@ -231,138 +466,78 @@ img {
     color: #FFF;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    margin-top: -4px;
     text-align: center;
+} 
+
+.visit_loction {
+    font-size: 24px;
+    padding-top: 0px;
 }
 
+.visit_hours {
+    font-size: 16px;
+}
+    
 .visit_content {
     display: flex;
     flex-direction: column-reverse;
+    padding: 0px;
+}
+
+.visit_content h2 {
+    font-size: 36px;
     text-align: center;
 }
 
+.guided_tours {
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.facility > * {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+}
+
+.facility i {
+    font-size: 80px;
+    padding: 30px; 
+}
+
 .accessibility {
-    border: 2em solid #d865aa;
+    border: 30px solid #d865aa;
 }
 
 .food {
-    border: 2em solid #fecf63;
+    border: 30px solid #fecf63;
 }
 
 .shop {
-    border: 2em solid #92c77a;
-}
-
-/* Exhibition Spaces */
-.exhibition_page {
-    border-top: 90px solid #92c77a;
-}
-
-.exhibition_img {
-    border-radius: 10%;
-    height: 15em;
-    width: 20em;
-}
-
-.exhibition_page_content {
-    display: flex;
-}
-
-.exhibition_page_content1 ,
-.exhibition_page_content2 ,
-.exhibition_page_content3 ,
-.exhibition_page_content4 , 
-.exhibition_page_content5 > * {
-    flex: 1;
-}
-
-.exhibition_page_content1 {
-    border: 30px solid #faa03c;
-    
-}
-
-.exhibition_page_content2 {
-    border: 30px solid #d865aa;
-    
-}
-
-.exhibition_page_content3 {
     border: 30px solid #92c77a;
-    
 }
-
-.exhibition_page_content4 {
-    border: 30px solid #31abeb;
-    
-}
-
-.exhibition_page_content5 {
-    border: 30px solid #fecf63;
-   
-}
-
-
-
-/* Special events and exhibition */
-.special_events_page {
-    border-top: 90px solid #d865aa ;
-}
-
-.event_content h1 {
-    background: #000;
-    color: #FFF;
-}
-
-.event_content h2 {
-    display: none;
-}
-
-.event_img {
-    border-radius: 30px;
-    width: 310px;
-    height: 220px;
-}
-
-.event_1 , 
-.event_2 ,
-.event_3 {
-    padding: 1em; 
-}
-
-.event_1 {
-    border: 2em solid #faa03c;
-}
-
-.event_2 {
-    border: 2em solid #92c77a;     
-}
-
-.event_3 {
-    border: 2em solid  #31abeb;
-}
-
 
 /* Explore */
 .explore_page {
     border-top: 90px solid #fecf63 ;
 }
 
-.top img {
-    max-height: 390px;
-}
-
 .explore_content {
     display: flex;
     max-width: 1000px;
-    margin: 100px auto;
-    gap: 30px;
-}
-
-.explore_kids {
-    font-size: 24px;
+    flex-direction: column;
+    padding: 30px;
 }
 
 .explore_image_container {
     display: flex;
+}
+
+.explore_image_container img{
+    display: 1;
 }
 
 .explore_image_container img {
@@ -371,43 +546,11 @@ img {
 
 .explore_info {
     background-color: #fecf63;
-    padding: 3em;
-    border-radius: 30px;
-    font-size: 20px;    
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-
-@media (max-width: 480px) {
-
-}
-
-@media (max-width: 768px) {
-    .explore_image_container {
-        display: block;
-    }
-
-    .explore_content {
-        margin: 0px;
-}
-
-   
-}
-
-@media (max-width: 1024px) {
-    .explore_content {
-        flex-direction: column;
-        padding: 30px;
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-    
-}
-
- 
-    
 
 
 /* Get involved */
@@ -415,11 +558,27 @@ img {
     border-top: 90px solid #faa03c ;
 }
 
-.get_involved_info {
-    border: 2em solid #faa03c;
-    padding: 1em;
+.get_involved_content {
+    display: flex;
+    max-width: 1000px;
+    flex-direction: column;
 }
 
+.get_support {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+}
 
+.get_involved_img_container {
+   width: 500px;  
+}
 
-
+.get_involved_info {
+    background-color: #fecf63;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
