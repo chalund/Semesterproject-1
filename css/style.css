@@ -537,7 +537,7 @@ img {
 }
 
 .explore_image_container img{
-    display: 1;
+    flex: 1;
 }
 
 .explore_image_container img {
