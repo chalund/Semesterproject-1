@@ -1,41 +1,32 @@
 /* @media */
-@media (max-width: 480px) {
-.event_view h1 {
-    display: none;
-    }
-
-.event_img {
-    width: 250px;
-    } 
-
-.explore_img2 {
-    display: none;
+@media (min-width: 480px) {
+.exhibition_img {
+    width: 400px;
 }
 }
 
 
 @media (min-width: 600px) {
     /* Home-page NEED TO BE FIXED */
-.museum_info1 {
+
+    .museum_info1 {
     display: flex;
 }
 
-    .museum_info {
-        display: flex;
-        max-width: 1000px;
-        margin: 50px auto;
-    }
+.museum_info {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+}
    
- 
+ .museum_info > * {
+    margin: 10px;
+}
 
-    .museum_info > * {
-        margin: 10px;
-    }
-
-    .museum_info2 h2 {
-        font-size: x-large;
-        font-weight: bolder;
-    }
+.museum_info2 h2 {
+    font-size: x-large;
+    font-weight: bolder;
+}
     
     .museum_info3 {
         margin-top: 10px;
@@ -50,20 +41,11 @@
         }
 
     
-    .exhibition_content_index {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3 , 1fr);
-    margin: auto;
-    grid-gap: 15px;
-    padding: 30px ;
-    max-width: 1000px;
-    justify-content: center;
-    } 
+
 
     .exhibition_images {
             border-radius: 20%;
-            height: 230px;
+            height: 160px;
     }
    
 
@@ -72,6 +54,10 @@
         border-radius: 0px;
         text-align: unset;
 }
+
+.eventx img {
+    width: 400px;
+};
 }
 
 
@@ -111,19 +97,21 @@
 display: contents;   
 }
 
-.events_info {
-    display: flex;
-    max-width: 1000px;
-    margin: auto;
-    gap: 30px;
-    padding: 30px;
-    justify-content: center;
-    flex-direction: row;
+.events h2 {
+    display: block;
 }
 
-.events h2 {
-    display: contents;
+.event_view h1 {
+    display: block;
 }
+
+.explore_img2 {
+    display: block;
+}
+
+
+
+
 }
 
 @media (min-width: 900px) {
@@ -137,8 +125,8 @@ footer a {
 } 
 
 .exhibition_content {
-    padding: 10px;
-}       
+    flex-direction: row;
+}
 }
 
 @media (min-width: 966px){
@@ -159,13 +147,12 @@ nav {
 header label {
     display: none;
 }
+
 }
     
     
 @media (min-width: 1000px) {
-main {
-    font-size: 16px;
-}
+
 
 .visit_content img {
     width: 100%;
@@ -202,12 +189,14 @@ main {
     display: contents; 
 }
 
+
+.eventx img {
+    width: 250px;
+}
+
 .events_info {
-   
-    margin: auto;
-    gap: 30px;
+    gap: 20px;
     padding: 30px;
-    justify-content: center;
     flex-direction: row;
 }
 
@@ -222,18 +211,32 @@ main {
 .explore_info {
     border-radius: 30px;
 }
-}
-
-@media (max-width: 1200px) {
-
 .event_content {
-    flex-direction: column;
-    gap: 0px;
+    flex-direction: row;
+    gap: 15px;
+
 }
-    
-.event_view {
-    margin: 0px auto;
+
+.event_content img {
+    width: 250px;
 }
+.event_3 h2 {
+    padding-bottom: 0px;
+  }
+.event_view  {
+    max-width: 1000px;
+    margin: 50px auto;   
+}
+
+.event_view h1 {
+    display: block;
+}
+
+}
+
+@media (min-width: 1150px) {
+
+
 }
 
 
