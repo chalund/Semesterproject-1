@@ -4,12 +4,11 @@
 }
 
 body {
-    font-family: Mulish, Muli, Avenir, Proxima Nova, Futura;
+    font-family: "Mulish", "Muli", "Avenir", "Proxima Nova", "Futura";
     font-variant: small-caps;
     background-color: #f5f5f5;
     margin: 0px;
     font-size: 20px;
-
 }
 
 header {
@@ -75,7 +74,7 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
-     margin: auto;
+    margin: auto;
 }
 
 .top img {
@@ -104,17 +103,14 @@ footer a {
     flex-direction: column;
 }
 
-
 .footer-info {
     display: flex;
-    gap: 30px;
-    
+    gap: 30px;   
 }
 
 .footer2 p {
     margin-top: 0px;
 }
-
 
 .opening_info li ,
 .footer_item3 li  {
@@ -161,7 +157,6 @@ img {
     text-align: center;
     padding: 0px 10px;
     justify-content: space-evenly;
-
 }
  
 .museum_info2 {
@@ -556,8 +551,13 @@ img {
     display: flex;
     max-width: 1000px;
     flex-direction: column;
+    
+}
+
+.explore_content {
     padding: 30px;
 }
+
 
 .explore_kids {
     display: flex;
