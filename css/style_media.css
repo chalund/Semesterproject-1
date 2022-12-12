@@ -1,14 +1,14 @@
 /* @media */
 @media (min-width: 480px) {
-.exhibition_img {
-    width: 400px;
-}
+
 }
 
 
 @media (min-width: 600px) {
     /* Home-page NEED TO BE FIXED */
-
+    .exhibition_img {
+        width: 400px;
+    }
     .museum_info1 {
     display: flex;
 }
@@ -57,8 +57,9 @@
 
 .eventx img {
     width: 400px;
-};
 }
+
+
 
 
 
