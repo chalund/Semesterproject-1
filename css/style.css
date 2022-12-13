@@ -367,7 +367,7 @@ img {
 
 .eventx img {
     height: 300px;
-    width: 250px;
+    width: 100%;
     border-radius: 20%;
 }
 
@@ -396,7 +396,7 @@ img {
 .exhibition_img {
     border-radius: 10%;
     height: 300px;
-    width: 300px;
+    width: 100%;
     align-self: center;
 }
 
@@ -464,7 +464,7 @@ img {
 
 .event_img {
     border-radius: 30px;
-    width: 300px;
+    width: 100%;
     height: 220px;
 }
 
