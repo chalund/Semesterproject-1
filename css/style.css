@@ -9,6 +9,7 @@ body {
     background-color: #f5f5f5;
     margin: 0px;
     font-size: 20px;
+
 }
 
 header {
@@ -22,6 +23,7 @@ header a {
     padding: 5px 10px;
     display: flex;
     align-items: center;   
+    margin: 20px;
 }
 
 .logo {
@@ -175,12 +177,17 @@ img {
 
 .exhibition_mobile {
     background: #000;
-    padding: 30px;
+    padding: 1rem;
     margin-top: -5px;
 }
 
 .exhibition_mobile div {
     border: 0px solid #000;
+    padding: 0px 30px ;
+
+}
+
+.exhibition_mobile_container {
 
 }
 
@@ -316,6 +323,7 @@ img {
     max-width: 1000px;
     flex-direction: column-reverse;
     margin: auto;
+    padding: 50px;
 }
 
 .why_visit > * {
@@ -572,7 +580,7 @@ img {
 
 .explore_image_container img {
     margin: 10px;
-    width: 300px;
+    width: 260px;
 }
 
 .explore_img2 {
@@ -580,7 +588,7 @@ img {
 }
 
 .explore_info {
-    background-color: #fecf63;
+    background-color: #92c77a;
 }
 
 .info { 

@@ -108,6 +108,10 @@ footer a {
 .exhibition_content {
     flex-direction: row;
 }
+
+.exhibition_reverse {
+    flex-direction: row-reverse;
+}
 }
 
 
@@ -128,6 +132,10 @@ nav {
         
 header label {
     display: none;
+}
+
+header a {
+    margin: 0px;
 }
 }
     
