@@ -72,26 +72,11 @@ display: flex;
     flex-direction: row;
     text-align: unset;
 }
-
-.why_visit {
-    flex-direction: row ;
-}
-
-.why_visit p {
-display: contents;   
-}
-
 .events h2 {
     display: block;
 }
 
-.event_view h1 {
-    display: block;
-}
 
-.explore_img2 {
-    display: block;
-}
 }
 
 
@@ -174,6 +159,10 @@ header a {
 
 .why_visit p {
     display: contents; 
+}
+
+.explore_img2 {
+    display: block;
 }
 
 .eventx img {
