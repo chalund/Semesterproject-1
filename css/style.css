@@ -156,7 +156,7 @@ img {
 }
 
 .museum_info > * {
-    margin: 0px;
+    margin: -5px;
 }
 
 .museum_info1 {
@@ -336,10 +336,6 @@ img {
     flex-direction: column;
 }
 
-.events h1 {
-    padding-bottom: 10px;
-}
-
 .eventx {
     padding: 40px;
     background: #fff;
@@ -486,6 +482,10 @@ img {
 }
 
 .visit_hours {
+    padding: 20px;
+}
+
+.visit_text {
     font-size: 16px;
 }
     
