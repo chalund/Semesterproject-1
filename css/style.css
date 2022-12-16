@@ -47,11 +47,9 @@ nav li {
 nav {
     display: none;
     position: fixed;
-    background-color;
     background: #000;
     top: 80px;
-    z-index: 1000;
-    right: 0px;
+    width: 100%;
 }
 
 header {
