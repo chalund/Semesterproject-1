@@ -3,8 +3,6 @@
      width: 400px;
 }
 
-
-
 .exhibition_mobile {
     display: none;
     }
@@ -31,35 +29,31 @@
 
 
 @media (min-width: 768px) {  
-    .museum_info1 {
-        display: flex;
-        }
+.museum_info1 {
+    display: flex;
+}
         
-        .museum_info {
-            display: flex;
-            max-width: 1000px;
-            margin: 50px auto;
-        }
+.museum_info {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+}
            
-         .museum_info > * {
-            margin: 10px;
-        }
+.museum_info > * {
+     margin: 10px;
+}
         
-        .museum_info2 h2 {
-            font-size: x-large;
-            font-weight: bolder;
-        }
+.museum_info2 h2 {
+    font-size: x-large;
+    font-weight: bolder;
+}
             
-        .museum_info3 {
-            margin-top: 40px;
-        }
+.museum_info3 {
+    margin-top: 40px;
+    }
 
 .visit_content  {
     font-size: 24px;
-}
-    
-.visit_content img {
-    height: 400px;
 }
         
 .visit_info , 
@@ -134,6 +128,10 @@ header a {
 
 .visit_location {
     padding-top: 50px;
+}
+
+.visit_content img {
+    height: 100%;
 }
 
 .visit_content {

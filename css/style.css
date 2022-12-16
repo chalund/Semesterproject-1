@@ -86,10 +86,10 @@ label {
 }
 
 .top img {
-    max-height: 390px; 
-    min-height: 300px;
-    margin-bottom: -5px;
-    object-fit: cover;
+    max-height: 500px; 
+    min-height: 250px;
+    display: block;
+    font-size: 0;
 }
 
 header, 
@@ -187,7 +187,7 @@ img {
 .exhibition_mobile div {
     border: 1px solid #000;
     padding: 0px 30px 15px;
-    font-size: 14px;
+    font-size: 16px;
     margin: 20px 0px;
 }
 
@@ -220,6 +220,7 @@ img {
 .button {
     padding: 10px 15px;
     background: #92c77a;
+    align-self: flex-start;
 }
 
 .exhibition_container {
@@ -488,6 +489,10 @@ img {
 .visit_text {
     font-size: 16px;
 }
+
+.visit_content img {
+    height: 400px;
+}
     
 .visit_content {
     display: flex;
@@ -537,7 +542,6 @@ img {
 .explore_content {
     padding: 30px;
 }
-
 
 .explore_kids {
     display: flex;
