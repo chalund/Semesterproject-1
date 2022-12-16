@@ -16,11 +16,7 @@
     height: 160px;
 }
    
-.visit_info {
-    flex-direction: row;
-    border-radius: 0px;
-    text-align: unset;
-}
+
 
 .eventx img {
     width: 400px;
@@ -116,18 +112,26 @@ header a {
     font-size: 22px;
 }
 
+.visit_info {
+    flex-direction: row;
+    border-radius: 0px;
+    text-align: unset;
+    border-radius: 30px;
+    padding: 0px;
+}
+
 .visit_content img {
     width: 100%; 
     height: 100%;
 }
 
-.visit_info {
-    border-radius: 30px;
-    padding: 0px;
+.visit_hours {
+    display: block;
+    padding: 10px;
 }
 
 .visit_location {
-    padding-top: 50px;
+    padding: 10px;
     font-size: 30px;
 }
 

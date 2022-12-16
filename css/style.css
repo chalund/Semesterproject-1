@@ -473,6 +473,7 @@ img {
     justify-content: space-around;
     margin-top: -4px;
     text-align: center;
+    padding: 20px;
 } 
 
 .visit_loction {
@@ -481,7 +482,7 @@ img {
 }
 
 .visit_hours {
-    padding: 20px;
+    display: none;
 }
 
 .visit_text {
@@ -589,9 +590,3 @@ img {
     max-width: 1000px;
     flex-direction: column;
 }
-
-
-
-
-
-
