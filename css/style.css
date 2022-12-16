@@ -5,7 +5,7 @@
 
 body {
     font-family: "Mulish", "Muli", "Avenir", "Proxima Nova", "Futura";
-    font-variant: small-caps;
+    font-variant-caps: all-small-caps;
     background-color: #f5f5f5;
     margin: 0px;
     font-size: 20px;
@@ -87,7 +87,7 @@ label {
 
 .top img {
     max-height: 500px; 
-    min-height: 250px;
+    min-height: 200px;
     display: block;
     font-size: 0;
 }
@@ -103,18 +103,19 @@ footer a {
     display: flex;
     flex-direction: column;
     font-weight: bold;
+    padding: 5px 0px;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-around;
-    padding: 10px 60px;
+    padding: 10px 30px;
     flex-direction: column;
 }
 
 .footer-info {
     display: flex;
-    gap: 30px;   
+    gap: 20px;   
 }
 
 .footer2 p {
@@ -142,7 +143,7 @@ a {
 }
 
 .active {
-    text-decoration: underline;
+    text-decoration: 2px solid underline;
 }
 
 img {
@@ -290,8 +291,8 @@ img {
 }
 
 .back_to {
-    background-color: #d865aa;
-    color: #fff;
+    background-color: #C058AD;
+    color: #000;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -300,7 +301,6 @@ img {
 }
 
 .back_to a {
-    color: #FFF;
     padding: 15px;
 }
 
@@ -483,11 +483,7 @@ img {
 }
 
 .visit_hours {
-    padding: 20px;
-}
-
-.visit_text {
-    font-size: 16px;
+    padding: 30px;
 }
 
 .visit_content img {
@@ -501,13 +497,11 @@ img {
 }
 
 .visit_content h2 {
-    font-size: 36px;
     text-align: center;
 }
 
 .guided_tours {
-    padding: 0px 50px;
-    text-align: center;
+    padding: 5px 50px;
 }
 
 .facility > * {
