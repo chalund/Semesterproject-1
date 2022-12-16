@@ -92,34 +92,29 @@ footer a {
 }
 
 
-@media (min-width: 966px){
-
-}
-
-    
-    
 @media (min-width: 1000px) {
-    header {
-        justify-content: start;
-    }
+header {
+    justify-content: start;
+}
             
-    nav li {
-        display: inline-block;
-        padding: 0px;
-    }
+nav li {
+    display: inline-block;
+    padding: 0px;
+}
             
-    nav {
-        display: block;
-        position: static;
-    }
+nav {
+    display: block;
+    position: static;
+}
             
-    header label {
-        display: none;
-    }
+header label {
+    display: none;
+}
     
-    header a {
-        margin: 0px;
-    }
+header a {
+    margin: 0px;
+    font-size: 22px;
+}
 
 .visit_content img {
     width: 100%; 
