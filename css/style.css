@@ -532,17 +532,6 @@ img {
     border-top: 90px solid #fecf63;
 }
 
-.explore_content {
-    padding: 30px;
-}
-
-
-.explore_kids {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .explore_image_container {
     display: flex;
 }
@@ -581,7 +570,8 @@ img {
     border-top: 90px solid #faa03c ;
 }
 
-.get_support {
+.get_support ,
+.explore_kids {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
