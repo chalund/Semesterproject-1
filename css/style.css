@@ -29,19 +29,9 @@ header a {
     width: 70px;
 }
 
-nav {
-    flex: 1;
-    text-align: right;
-}
-
 nav a:hover ,
 footer a:hover {
     color: #C058AD;
-}
-
-nav li {
-    display: block;
-    padding: 0px;
 }
 
 nav {
@@ -50,6 +40,14 @@ nav {
     background: #000;
     top: 80px;
     width: 100%;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: block;
 }
 
 header {
@@ -109,13 +107,17 @@ footer a {
 .footer-container {
     display: flex;
     justify-content: space-around;
-    padding: 10px 60px;
+    padding: 0px 15px;
     flex-direction: column;
 }
 
 .footer-info {
     display: flex;
-    gap: 30px;   
+    gap: 5px;   
+}
+
+.footer2 {
+    font-size: 12px;
 }
 
 .footer2 p {
@@ -544,7 +546,8 @@ img {
 
 .explore_image_container img {
     margin: 10px;
-    width: 260px;
+    width: 100%;
+    max-height: 400px;
 }
 
 .explore_img2 {

@@ -1,4 +1,27 @@
+@media (min-width: 300px) {
+nav li {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: 5px;
+    font-size: 30px;
+}
+
+.footer2 {
+    font-size: 20px;
+}
+
+.footer-info {
+    gap: 30px;   
+}
+}
+
+
 @media (min-width: 600px) {
+.footer-container {
+    padding: 10px 60px;  
+} 
+
 .exhibition_img {
      width: 400px;
 }
@@ -16,10 +39,12 @@
     height: 160px;
 }
    
-
-
 .eventx img {
     width: 400px;
+}
+
+.explore_img2 {
+    display: block;
 }
 }
 
@@ -96,12 +121,20 @@ header {
 nav li {
     display: inline-block;
     padding: 0px;
+    font-size: 20px;
+    text-align: right;
 }
-            
+           
 nav {
     display: block;
     position: static;
 }
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
             
 header label {
     display: none;
@@ -159,10 +192,6 @@ header a {
 
 .why_visit p {
     display: contents; 
-}
-
-.explore_img2 {
-    display: block;
 }
 
 .eventx img {
