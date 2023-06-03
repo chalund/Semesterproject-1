@@ -1,5 +1,5 @@
 # Semester Project
-![Screenshot](./images/screenshot-rainydays.jpg)
+![Screenshot](./images/Semesterproject.png)
 
 ## Table of Contents
 * [Screenshot](#screenshot)
