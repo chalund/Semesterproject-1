@@ -10,7 +10,7 @@
 * [Contact](#contact)
 
 ## General info
-
+A website for an interactive science museum called the Community Science Museum for young children. Its core target audience is primary and middle school children (ages 7-15) and families with young children.
 
 ## Built with
 This project is built using:
